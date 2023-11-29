@@ -83,5 +83,20 @@
         app:layout_constraintVertical_bias="0.141"
         app:rippleColor="#D31D1D" />
 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="432dp"
+        android:layout_height="56dp"
+        android:background="#59FFFFFF"
+        android:text="Main Activity"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#DAD8D8"
+        android:textIsSelectable="false"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/fondo1" />
+
 
 </androidx.constraintlayout.widget.ConstraintLayout>
